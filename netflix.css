@@ -1,0 +1,285 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: black; */
+}
+body {
+  background-color: black;
+}
+.main {
+  width: 100vw;
+  height: 90vh;
+  background-image: url(IN-en-20250203-TRIFECTA-perspective_46eb8857-face-4ea6-b901-dbf22b461369_large.jpg);
+  position: relative;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+.opacity {
+  width: 100vw;
+  height: 90vh;
+  background-color: black;
+  opacity: 0.69;
+  position: absolute;
+  top: 0px;
+}
+nav {
+  position: relative;
+  display: flex;
+  margin: auto;
+  max-width: 60vw;
+  min-width: 586px;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 10;
+  flex-wrap: nowrap;
+  /* background-color: antiquewhite; */
+}
+.button button {
+  height: 30px;
+  width: 90px;
+  border: none;
+  border-radius: 5px;
+}
+.nav img {
+  position: relative;
+  z-index: 10;
+}
+.box {
+  height: 100%;
+  color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  position: relative;
+  flex-direction: column;
+  font-family: "Martel Sans", serif;
+  /* font-size: 24px; */
+}
+.xx {
+  font-size: 58px;
+  font-weight: 900;
+  text-align: center;
+  padding: 0px 30px;
+}
+#w1 {
+  font-size: 22px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+  padding: 0px 30px;
+}
+#w2 {
+  text-align: center;
+  padding: 0px 30px;
+  margin-bottom: 20px;
+}
+.in {
+  /* background-color: aqua; */
+  /* width: 40vw;
+    height: 5vh; */
+  /* margin-top: 20px; */
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.in button {
+  /* padding: 15px; */
+  /* padding-left: 30px;
+    padding-right: 30px; */
+  /* max-height: 5vh;
+   min-height: 5vh; */
+  background-color: red;
+  font-size: 24px;
+  font-family: "Martel Sans", serif;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 0 12px;
+  font-weight: 600;
+  /* margin: 7px; */
+}
+.in input {
+  max-width: 44vh;
+  min-width: 44vh;
+  max-height: 5vh;
+  min-height: 5vh;
+  border: 1.5px solid grey;
+  border-radius: 4px;
+  background-color: transparent;
+  font-size: 22px;
+  /* margin: 5px; */
+}
+#lang {
+  background-color: red;
+  color: white;
+  font-size: 12px;
+}
+.bottom {
+  width: 100vw;
+  height: 90vh;
+  background: radial-gradient(
+      50% 500% at 50% -420%,
+      rgba(64, 97, 231, 0.4) 80%,
+      rgba(0, 0, 0, 0.1) 100%
+    ),
+    black;
+  position: relative;
+  top: 0px;
+}
+.line {
+  width: 100vw;
+  height: 0.5vh;
+  background: linear-gradient(
+    to right,
+    rgba(33, 13, 22, 1) 16%,
+    rgba(184, 40, 105, 1),
+    rgba(229, 9, 20, 1),
+    rgba(184, 40, 105, 1),
+    rgba(33, 13, 22, 1) 84%
+  );
+  position: relative;
+  top: 0px;
+}
+.trending {
+  /* background-color: rgb(17, 17, 13); */
+  height: 50%;
+  width: 80vw;
+  margin-top: 50px;
+  color: white;
+  position: absolute;
+  top: -10px;
+  left: 147px;
+
+  /* position: relative;
+    top: 50px;
+    left: 370px; */
+}
+.trending > h3 {
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.banner {
+  position: absolute;
+  height: 80%;
+  width: 70vw;
+  /* background-color: aqua; */
+  left: 73px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-x: scroll;
+  justify-content: space-evenly;
+}
+.num {
+  position: relative;
+  z-index: 10;
+  font-size: 100px;
+}
+.image img {
+  /* border: 2px solid grey; */
+  border-radius: 5px;
+  margin: 10px;
+  cursor: pointer;
+}
+.more{
+  /* background-color: rgb(17, 17, 13); */
+  height: 50%;
+  width: 80vw;
+  position: absolute;
+  top: 460px;
+  left: 147px;
+}
+.more > h3 {
+  color: white;
+  margin-left: 60px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.banner2{
+  position: absolute;
+  height: 80%;
+  width: 70vw;
+  /* background-color: aqua; */
+  left: 73px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* overflow-x: scroll; */
+  justify-content: space-evenly;
+  /* gap: 0px; */
+}
+.c1{
+  height: 90%;
+  width: 17vw;
+  background: linear-gradient(149deg, #192247, #351625 96.86%);
+  border-radius: 30px;
+  color: white;
+  text-align: left;
+  /* padding: 20px; */
+font-family: "Martel Sans", serif;
+}
+.c1 h2{
+  margin-bottom: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 0px;
+  font-size: 20px;
+}
+.c1 p{
+  /* margin-bottom: 30px; */
+  /* padding-top: 20px; */
+  padding-left: 10px;
+  padding-top: 0px;
+}
+.faq
+{
+  width: 80vw;
+  height: 100%;
+  /* background-color: #351625; */
+  position: absolute;
+  top: 900px;
+  left: 147px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-evenly; */
+  gap: 12px;
+  align-items: center;
+}
+.fff{
+  width: 60vw;
+  height: 10%;
+  background-color: rgb(45,45,45);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 24px;
+  padding-left: 20px;
+  font-family:"Martel Sans", serif ;
+}
+#faqq{
+  display: flex;
+  color: white;
+  align-items: center;
+  font-size: 24px;
+  font-family: "Martel Sans", serif;
+  background-color: transparent;
+}
+.fff span{
+  font-size: 50px;
+  padding-right: 20px;
+}
+.fff span:hover{
+  /* transform: rotate(-45deg); */
+  font-size: 50px;
+  padding-right: 20px;
+}
